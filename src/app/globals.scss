@@ -1,5 +1,5 @@
-@use '/node_modules/@carbon/react/';
-@use '../components/TutorialHeader/tutorial-header';
+@use '@carbon/react';
+@use '@/components/TutorialHeader/tutorial-header';
 
 /// Remove overrides once Carbon bugs are fixed upstream.
 /// Need grid option to not add page gutters at large viewports, to also use when nesting grids
