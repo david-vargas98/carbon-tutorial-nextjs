@@ -60,7 +60,7 @@
   dependencies:
     "@ibm/telemetry-js" "^1.5.0"
 
-"@carbon/icons-react@^11.22.0":
+"@carbon/icons-react@^11.22.0", "@carbon/icons-react@^11.66.0":
   version "11.66.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.66.0.tgz#0f1cbbde707657dde1a0828f44bebbc8ad03ee3f"
   integrity sha512-bx5fATpmngdRHfEojovoIKJ0Gs/W5o0pRJNh/yfbJA25RHlbTOfWxgljVK+hx5zPF/qjvshIm4rT29eDvX+ifQ==
