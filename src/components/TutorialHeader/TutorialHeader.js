@@ -13,6 +13,8 @@ import {
   HeaderSideNavItems,
 } from '@carbon/react';
 
+import { Switcher, Notification, UserAvatar } from '@carbon/icons-react';
+
 const TutorialHeader = () => (
   <HeaderContainer
     render={({ isSideNavExpanded, onClickSideNavExpand }) => (
@@ -40,7 +42,25 @@ const TutorialHeader = () => (
             </HeaderSideNavItems>
           </SideNavItems>
         </SideNav>
-        <HeaderGlobalBar />
+        <HeaderGlobalBar>
+          <HeaderGlobalAction
+            aria-label="Notifications"
+            tooltipAlignment="center"
+            className="action-icons"
+          >
+            <Notification size={20} />
+          </HeaderGlobalAction>
+          <HeaderGlobalAction
+            aria-label="User Avatar"
+            tooltipAlignment="center"
+            className="action-icons"
+          >
+            <UserAvatar size={20} />
+          </HeaderGlobalAction>
+          <HeaderGlobalAction aria-label="App Switcher" tooltipAlignment="end">
+            <Switcher size={20} />
+          </HeaderGlobalAction>
+        </HeaderGlobalBar>
       </Header>
     )}
   />
